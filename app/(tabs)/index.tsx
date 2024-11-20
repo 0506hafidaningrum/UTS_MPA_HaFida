@@ -8,9 +8,9 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <MateriFlexBox></MateriFlexBox>
-        <PositionReactNative></PositionReactNative>
-        <StylingReactNativeComponent></StylingReactNativeComponent>
+        {/* <StylingReactNativeComponent></StylingReactNativeComponent> */}
+        {/* <MateriFlexBox></MateriFlexBox> */}        
+        <PositionReactNative></PositionReactNative>       
       </ScrollView>
     </View>
   );
