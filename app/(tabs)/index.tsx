@@ -1,16 +1,19 @@
 import React from 'react';
 import { View, ScrollView } from 'react-native';
-import MateriFlexBox from './MateriFlexBox';
-import PositionReactNative from './PositionReactNative';
-import StylingReactNativeComponent from './StylingReactNativeComponent';
+
+import DuaTombol from './nomor3';
+import ClassComponent from './nomer2/classkomponen';
+import FunctionalComponent from './nomer2/functionalkomponen';
+import DuaLayar from './nomor5';
 
 const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <StylingReactNativeComponent></StylingReactNativeComponent> */}
-        {/* <MateriFlexBox></MateriFlexBox> */}        
-        <PositionReactNative></PositionReactNative>       
+        <ClassComponent></ClassComponent>
+        <FunctionalComponent></FunctionalComponent>
+        <DuaTombol></DuaTombol>
+        <DuaLayar></DuaLayar>
       </ScrollView>
     </View>
   );
